@@ -87,7 +87,7 @@ const Home = () => {
       sx={{
         border: "1px solid red",
         width: "100%", // Cambiar a 100% para utilizar el espacio completo
-        padding: "10px",
+        // padding: "10px",
         height: "100%",
         display: "flex",
         flexDirection: "column",

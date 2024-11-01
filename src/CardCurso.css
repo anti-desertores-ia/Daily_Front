@@ -4,7 +4,7 @@
 }
 
 .MuiCard-root {
-  width: 256px !important;
+  width: 256px;
   border-radius: 12px !important;
   background-color: #1e2329 !important;
 }
@@ -33,6 +33,7 @@
 }
 
 .MuiCardHeader-content {
+  width: 180px;
   display: flex;
 }
 
@@ -43,17 +44,23 @@
 }
 
 .CardContent {
+  border: 1px blue solid;
+
   height: 62px;
+  width: 256px;
   display: flex;
   align-items: center;
-  
+  justify-content: center;
   background-color: #1e2329;
-  border-radius: 0 0 12px 12px;
 }
 
 .CardContent-subs {
+  border: 1px red solid;
+  width: 180px;
   margin: 6px 0 0 10px;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background-color: transparent;
 }
 
