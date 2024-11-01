@@ -1,33 +1,3 @@
-// import { Box, Stack } from "@mui/material";
-// import CardCurso from "./CardCurso";
-// import Welcome from "./Welcome";
-// import "./Home.css";
-
-// const Home = () => {
-//   return (
-//     <Box
-//       sx={{
-//         border: "1px solid red",
-//         width: 425,
-//         padding: "10px",
-//         height: "100%",
-//         display: "flex",
-//         flexDirection: "column",
-//         backgroundColor: "#13161D",
-//       }}
-//     >
-//       <Stack className="Home-welcome" >
-//         <Welcome />
-//       </Stack>
-//       <CardCurso />
-//     </Box>
-//   );
-// };
-
-// export default Home;
-
-
-
 import { Box, Stack } from "@mui/material";
 import CardCurso from "./CardCurso";
 import Welcome from "./Welcome";
@@ -87,7 +57,6 @@ const Home = () => {
       sx={{
         border: "1px solid red",
         width: "100%", // Cambiar a 100% para utilizar el espacio completo
-        // padding: "10px",
         height: "100%",
         display: "flex",
         flexDirection: "column",

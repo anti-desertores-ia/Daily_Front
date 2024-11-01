@@ -1,8 +1,6 @@
 import Typography from "@mui/material/Typography";
 import { Avatar, Card, CardContent, CardHeader, Stack } from "@mui/material";
 import "./CardCurso.css";
-import logoCurso from "./images/logoCurso.svg";
-import iconPlay from "./images/iconPlay.svg";
 
 const CardCurso = ({curso}) => {
   console.log("curso: ", curso)
@@ -11,7 +9,11 @@ const CardCurso = ({curso}) => {
       <CardHeader
         className="CardHeader"
         avatar={
-          <img className="CardHeader-img" src={curso?.logo} alt="header img" />
+          <img 
+            className="CardHeader-img" 
+            src={curso?.logo} 
+            alt="header img" 
+          />
         }
         title={curso?.nombre}
       />
@@ -24,11 +26,15 @@ const CardCurso = ({curso}) => {
         </Avatar>
 
         <Stack className="CardContent-subs">
+
           <Typography variant="subtitle2" color="gray">
-            {curso.clasesCompletadas} de {curso.totalClases} - restan {curso.tiempoRestante} min          </Typography>
+            {curso.clasesCompletadas} de {curso.totalClases} - restan {curso.tiempoRestante} min
+          </Typography>
+
           <Typography variant="subtitle1" color="white">
             {curso.nombreClase}
           </Typography>
+
         </Stack>
       </CardContent>
     </Card>
