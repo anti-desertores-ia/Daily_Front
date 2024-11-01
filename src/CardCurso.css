@@ -1,0 +1,68 @@
+.cardCurso {
+  min-width: 256px;
+  margin: 0 10px;
+}
+
+.MuiCard-root {
+  width: 256px !important;
+  border-radius: 12px !important;
+  background-color: #1e2329 !important;
+}
+
+.CardHeader {
+  width: 256px;
+  height: 54px;
+  background-color: #1e2329;
+}
+
+.CardHeader * {
+  background-color: transparent;
+}
+
+.MuiCardHeader-avatar {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #F0DDB4;
+}
+
+.CardHeader-img {
+  width: 27px;
+  height: 27px;
+  margin: 6px 0 0 5px;
+}
+
+.MuiCardHeader-content {
+  display: flex;
+}
+
+.cardCurso-body {
+  width: 256px;
+  height: 146px;
+  background-color: gray;
+}
+
+.CardContent {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  
+  background-color: #1e2329;
+  border-radius: 0 0 12px 12px;
+}
+
+.CardContent-subs {
+  margin: 6px 0 0 10px;
+  display: flex;
+  background-color: transparent;
+}
+
+.CardContent-subs *{
+  background-color: transparent;
+}
+
+.CardContent-img {
+  background-color: transparent;
+  height: 20px;
+  margin: 0px 0 0 5px;
+}

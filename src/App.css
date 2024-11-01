@@ -1,13 +1,20 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* justify-content: center; */
-  /* font-size: calc(10px + 2vmin); */
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
   color: white;
+  background-color: #13161d;
+  width: 425px;
+}
+
+.App {
+  margin: auto;
+  display: flex;
+  max-width: 425px;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 header {
@@ -16,12 +23,12 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: #282c34;
   padding: 10px;
 }
 
 .content {
-  margin-top: 60px; /* Ajusta este valor según la altura del Header */
+  margin-top: 60px;
+  /* Ajusta este valor según la altura del Header */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,6 +56,7 @@ header {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
