@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Daily_Front/static/css/main.450f2ffd.css",
-    "main.js": "/Daily_Front/static/js/main.32a0a93c.js",
-    "static/js/453.eb7de6a2.chunk.js": "/Daily_Front/static/js/453.eb7de6a2.chunk.js",
-    "index.html": "/Daily_Front/index.html",
-    "main.450f2ffd.css.map": "/Daily_Front/static/css/main.450f2ffd.css.map",
-    "main.32a0a93c.js.map": "/Daily_Front/static/js/main.32a0a93c.js.map",
-    "453.eb7de6a2.chunk.js.map": "/Daily_Front/static/js/453.eb7de6a2.chunk.js.map"
+    "main.css": "/Platzi-Daily/static/css/main.450f2ffd.css",
+    "main.js": "/Platzi-Daily/static/js/main.3fb4d174.js",
+    "static/js/453.eb7de6a2.chunk.js": "/Platzi-Daily/static/js/453.eb7de6a2.chunk.js",
+    "index.html": "/Platzi-Daily/index.html",
+    "main.450f2ffd.css.map": "/Platzi-Daily/static/css/main.450f2ffd.css.map",
+    "main.3fb4d174.js.map": "/Platzi-Daily/static/js/main.3fb4d174.js.map",
+    "453.eb7de6a2.chunk.js.map": "/Platzi-Daily/static/js/453.eb7de6a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.450f2ffd.css",
-    "static/js/main.32a0a93c.js"
+    "static/js/main.3fb4d174.js"
   ]
 }
