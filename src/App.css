@@ -4,13 +4,13 @@
   padding: 0;
   color: white;
   background-color: #13161d;
-  width: 425px;
+  width: 390px;
 }
 
 .App {
   margin: auto;
   display: flex;
-  max-width: 425px;
+  max-width: 390px;
   min-height: 100vh;
   text-align: center;
   align-items: center;
