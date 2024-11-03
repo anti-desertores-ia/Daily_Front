@@ -2,6 +2,7 @@ import { Box, Stack } from "@mui/material";
 import CardCurso from "./CardCurso";
 import Welcome from "./Welcome";
 import "./Home.css";
+import Header from "./Header";
 
 const cursos = [
   {
@@ -53,32 +54,34 @@ const cursos = [
 
 const Home = () => {
   return (
-    <Box
-      sx={{
-        border: "1px solid red",
-        width: "100%", // Cambiar a 100% para utilizar el espacio completo
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-        backgroundColor: "#13161D",
-      }}
-    >
-      <Stack className="Home-welcome">
-        <Welcome />
-      </Stack>
+    <>
+      <Header />
       <Box
         sx={{
+          border: "1px solid red",
+          width: "100%", // Cambiar a 100% para utilizar el espacio completo
+          height: "100%",
           display: "flex",
-          overflowX: "auto", // Permitir el desplazamiento horizontal
-          padding: "10px 0",
+          flexDirection: "column",
+          backgroundColor: "#13161D",
         }}
       >
-        {cursos.map((curso, index) => (
-          <CardCurso key={index} curso={curso} />
-        ))}
+        <Stack className="Home-welcome">
+          <Welcome />
+        </Stack>
+        <Box
+          sx={{
+            display: "flex",
+            overflowX: "auto", // Permitir el desplazamiento horizontal
+            padding: "10px 0",
+          }}
+        >
+          {cursos.map((curso, index) => (
+            <CardCurso key={index} curso={curso} />
+          ))}
+        </Box>
       </Box>
-
-    </Box>
+    </>
   );
 };
 

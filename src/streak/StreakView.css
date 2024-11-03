@@ -1,0 +1,278 @@
+:root {
+  --text-color: #c7c7cc;
+  --highlight-color: #00d084;
+  --button-background-color: #00d084;
+  --button-text-color: #ffffff;
+  --progress-bg: #2c2c2e;
+}
+
+.header {
+  color: #ffffff;
+  background-color: #010101;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 12px;
+  width: 100%;
+}
+
+.streak-view {
+  padding: 16px;
+  background-color: #13161d;
+}
+
+.streak-days {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #2d313a;
+  border-radius: 12px;
+  padding: 40px 0;
+}
+
+.streak-day {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.streak-count {
+  font-size: 48px;
+}
+
+.streak-label {
+  font-size: 16px;
+}
+
+.section-subtitle {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.streak-challenge {
+  background-color: #1e2329;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.challenge-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.challenge-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.challenge-button {
+  background-color: #07e98a;
+  color: #13161d;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.progress-item {
+  text-align: center;
+  background-color: #2d313a;
+  padding: 8px 8px;
+  border-radius: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.progress-count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+}
+
+.progress-label {
+  font-size: 12px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.calendar {
+  margin-bottom: 20px;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.calendar-nav {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.calendar-month {
+  font-size: 16px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.calendar-day {
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.calendar-date {
+  color: #ffffff;
+  background-color: #1e2329;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+
+.date-active {
+  background-color: #07e98a;
+  color: #1e2329;
+}
+
+.date-protector {
+  background-color: #d5ab00;
+  color: #1e2329;
+}
+
+.streak-protector {
+  background-color: #2d313a;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.protector-text {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: bold;
+}
+
+.protector-description {
+  font-size: 12px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.protector-button {
+  background-color: #07e98a;
+  color: #13161d;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Color semitransparente */
+  backdrop-filter: blur(4px); /* Filtro de desenfoque */
+  z-index: 1; /* Asegura que esté detrás del bottom sheet */
+}
+
+.bottom-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2d313a;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 60px 20px;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Asegura que esté delante del backdrop */
+}
+
+.bottom-sheet-title {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+  display: block;
+}
+
+.bottom-sheet-description {
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.bottom-sheet-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 4px;
+}
+
+.accept-button,
+.decline-button {
+  background-color: #07e98a;
+  color: #13161d;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.decline-button {
+  background-color: transparent;
+  color: #ffffff;
+}
