@@ -1,0 +1,42 @@
+.cardRutas {
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 273px; */
+  min-width: 273px;
+  margin: 10px;
+}
+
+.cardRutas-header {
+  /* border: 1px cyan solid; */
+  width: 68px;
+  background-color: #2D313A;
+}
+
+.cardRutas-headerImg{
+  background-color: #2D313A;
+}
+
+.cardRutas-content {
+  height: 89px;
+  width: 205px !important;
+  background-color: #1E2329;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardRutas-content * {
+  background-color: transparent;
+  width: 205px;
+  display: flex;
+  padding: 5px !important;
+}
+
+.cardRutas-progress{
+  width: 100%;
+}
+
+

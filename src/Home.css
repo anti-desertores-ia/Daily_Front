@@ -1,6 +1,44 @@
+.Home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #13161D;
+}
+
 .Home-welcome{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 10px;
+}
+
+.Home-card {
+  display: flex;
+  overflow-x: auto;
+}
+
+.Home-cardRutas{
+  display: flex;
+  overflow-x: auto;
+}
+
+.Home-opciones {
+  display: flex;
+  overflow-x: auto;
+}
+
+.Home-cardRecomendados {
+  display: flex;
+  overflow-x: auto;
+}
+
+.CardTip {
+  display: flex;
+  overflow-x: auto;
+}
+
+.CardShorts {
+  display: flex;
+  overflow-x: auto;
 }

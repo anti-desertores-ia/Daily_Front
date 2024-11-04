@@ -44,8 +44,6 @@
 }
 
 .CardContent {
-  border: 1px blue solid;
-
   height: 62px;
   width: 256px;
   display: flex;
@@ -55,17 +53,14 @@
 }
 
 .CardContent-subs {
-  border: 1px red solid;
-  width: 180px;
   margin: 6px 0 0 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   background-color: transparent;
 }
 
 .CardContent-subs *{
   background-color: transparent;
+  width: 190px;
+  display: flex;
 }
 
 .CardContent-img {

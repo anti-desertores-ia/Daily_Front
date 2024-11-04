@@ -1,0 +1,34 @@
+.CardRecomendados {
+  min-width: 270px;
+  margin: 10px;
+}
+
+.CardRecomendados-body {
+  width: 100%;
+  height: 155px;
+  background-color: #ACACAC;
+}
+
+.CardContent {
+  height: 62px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e2329;
+}
+
+.CardRecomendados-subs {
+  margin: 6px 0 0 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardRecomendados-subs *{
+  width: 200px;
+  display: flex;
+  background-color: #1e2329;
+
+}
+
