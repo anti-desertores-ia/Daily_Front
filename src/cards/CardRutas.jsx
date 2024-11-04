@@ -1,11 +1,9 @@
 import {
   Card,
-  Stack,
   CardHeader,
   Typography,
   CardContent,
   LinearProgress,
-  Divider,
 } from "@mui/material";
 import "./CardRutas.css";
 
