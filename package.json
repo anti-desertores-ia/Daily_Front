@@ -1,7 +1,7 @@
 {
   "name": "platzi_daily",
   "version": "0.1.0",
-  "homepage": "https://anti-desertores.github.io/Daily_Front",
+  "homepage": "https://anti-desertores.github.io/Platzi-Daily",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
