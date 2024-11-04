@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Platzi-Daily/static/css/main.4fbacb65.css",
-    "main.js": "/Platzi-Daily/static/js/main.1044421c.js",
+    "main.css": "/Platzi-Daily/static/css/main.c934bb16.css",
+    "main.js": "/Platzi-Daily/static/js/main.b86ae019.js",
     "static/js/453.eb7de6a2.chunk.js": "/Platzi-Daily/static/js/453.eb7de6a2.chunk.js",
     "index.html": "/Platzi-Daily/index.html",
-    "main.4fbacb65.css.map": "/Platzi-Daily/static/css/main.4fbacb65.css.map",
-    "main.1044421c.js.map": "/Platzi-Daily/static/js/main.1044421c.js.map",
+    "main.c934bb16.css.map": "/Platzi-Daily/static/css/main.c934bb16.css.map",
+    "main.b86ae019.js.map": "/Platzi-Daily/static/js/main.b86ae019.js.map",
     "453.eb7de6a2.chunk.js.map": "/Platzi-Daily/static/js/453.eb7de6a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fbacb65.css",
-    "static/js/main.1044421c.js"
+    "static/css/main.c934bb16.css",
+    "static/js/main.b86ae019.js"
   ]
 }
