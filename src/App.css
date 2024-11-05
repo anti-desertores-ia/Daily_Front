@@ -4,13 +4,12 @@
   padding: 0;
   color: white;
   background-color: #13161d;
-  width: 425px;
 }
 
 .App {
   margin: auto;
   display: flex;
-  max-width: 425px;
+  max-width: 390px;
   min-height: 100vh;
   text-align: center;
   align-items: center;
@@ -27,7 +26,7 @@ header {
 }
 
 .content {
-  margin-top: 60px;
+  margin-top: 10px;
   /* Ajusta este valor según la altura del Header */
   display: flex;
   flex-direction: column;

@@ -1,20 +1,22 @@
 import { Typography } from "@mui/material";
 
-const Welcome = () => {
+const TitleTip = () => {
   return (
     <>
-      <Typography 
+      <Typography
         variant="h5"
         sx={{
+          marginTop: "10px",
           marginLeft: "10px",
           display: "flex",
           justifyContent: "flex-start",
         }}
       >
-        @NAME, continúa aprendiendo
+        Smart Tip
       </Typography>
     </>
   );
 };
 
-export default Welcome;
+export default TitleTip;
+

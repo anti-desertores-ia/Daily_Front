@@ -1,4 +1,4 @@
-import { Grid2 } from "@mui/material";
+import { Grid2, Typography } from "@mui/material";
 
 const Header = () => {
   return (
@@ -7,12 +7,19 @@ const Header = () => {
         height: "64px",
         width: "100%",
         display: "flex",
+        flexDirection: "row",
         alignItems: "center",
         backgroundColor: "#010101",
         justifyContent: "space-between",
       }}
     >
-      <Grid2 sx={{ marginLeft: "15px", backgroundColor: "transparent" }}>
+      <Grid2
+        sx={{
+          width: "90px",
+          marginLeft: "15px",
+          backgroundColor: "transparent",
+        }}
+      >
         <img
           src={process.env.PUBLIC_URL + "/nombrePlatzi.svg"}
           alt="Nombre Platzi"
@@ -21,27 +28,35 @@ const Header = () => {
       </Grid2>
       <Grid2
         sx={{
-          width: "56px",
+          width: "57px",
           height: "34px",
           marginRight: "15px",
           borderRadius: "33px",
           backgroundColor: "#1c232c",
           display: "flex",
-          justifyContent: "space-evenly",
+          // justifyContent: "center",
           alignItems: "center",
           overflow: "hidden",
         }}
       >
-        <Grid2 sx={{backgroundColor: "transparent"}}>
-          <img 
-            src={process.env.PUBLIC_URL + "/rocket.png"}
-            alt="Cohete"
-            style={{ width: "23px", height: "23px", backgroundColor: "transparent" }}
-          />
-        </Grid2>
-        <Grid2 sx={{backgroundColor: "transparent"}}>
+        <img
+          src={process.env.PUBLIC_URL + "/rocket.png"}
+          alt="Cohete"
+          style={{
+            width: "23px",
+            height: "23px",
+            backgroundColor: "transparent",
+          }}
+        />
+        <Typography
+          sx={{
+            width: "23px",
+            height: "23px",
+            backgroundColor: "transparent",
+          }}
+        >
           5
-        </Grid2>
+        </Typography>
       </Grid2>
     </Grid2>
   );

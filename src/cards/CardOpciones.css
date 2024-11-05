@@ -1,0 +1,21 @@
+.CardOptions {
+  min-width: 100px;
+  min-height: 86px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #13161D !important;
+  /* border: 1px #13161D solid; */
+}
+
+.CardActionArea-div {
+  width: 48px;
+  height: 58px;
+}
+
+.CardContent-opcion {
+  max-width: 100px;
+  max-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 

@@ -1,20 +1,22 @@
 import { Typography } from "@mui/material";
 
-const Welcome = () => {
+const CursosNuevos = () => {
   return (
     <>
-      <Typography 
+      <Typography
         variant="h5"
         sx={{
+          marginTop: "10px",
           marginLeft: "10px",
           display: "flex",
           justifyContent: "flex-start",
         }}
       >
-        @NAME, continúa aprendiendo
+        Últimos cursos lanzados
       </Typography>
     </>
   );
 };
 
-export default Welcome;
+export default CursosNuevos;
+
