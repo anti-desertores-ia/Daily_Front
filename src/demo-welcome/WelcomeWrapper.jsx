@@ -1,6 +1,5 @@
 import { Grid2 } from "@mui/material";
 import IntroHeader from "./IntroHeader";
-import ContinueButton from "./ContinueButton";
 
 const WelcomeWrapper = ({ children }) => { 
 

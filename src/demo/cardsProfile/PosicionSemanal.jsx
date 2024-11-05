@@ -1,4 +1,4 @@
-import { Box, Button, Grid2, Stack, Typography } from "@mui/material";
+import { Box, Grid2, Stack, Typography } from "@mui/material";
 import "./PosicionSemanal.css";
 
 const PosicionSemanal = () => {
