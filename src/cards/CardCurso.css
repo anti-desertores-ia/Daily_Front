@@ -63,7 +63,7 @@
   display: flex;
 }
 
-.CardContent-img {
+.CardContent-img {  
   background-color: transparent;
   height: 20px;
   margin: 0px 0 0 5px;

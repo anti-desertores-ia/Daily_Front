@@ -2,22 +2,23 @@ import { useState } from "react";
 import { Grid2 } from "@mui/material";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { setName } from "../redux/slices/profileSlice";
+import { useDispatch } from "react-redux";
 
 const ProfileSelection = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const [selectedProfile, setSelectedProfile] = useState(null);
+  console.log("selectedProfile: ", selectedProfile)
 
   const handleProfileClick = (profile) => {
     setSelectedProfile(profile);
+    dispatch(setName(profile));
   };
 
   const handleButtonClick = () => {
-    if (selectedProfile === "alonso") {
-      navigate("/demo/profile-alonso");
-    } else if (selectedProfile === "gabi") {
-      navigate("/demo/profile-gabi");
-    } else if (selectedProfile === "alex") {
-      navigate("/demo/profile-alex");
+    if (selectedProfile) {
+      navigate(`/demo/profile/${selectedProfile}`);
     }
   };
 
@@ -175,13 +176,15 @@ const ProfileSelection = () => {
           width: "352px",
           height: "48px",
           backgroundColor: selectedProfile ? "#07E98A" : "gray",
-          color: "#13161D",
+          color: selectedProfile ? "#13161D" : "#ccc",
           fontWeight: "700",
           marginBottom: "58px",
           textTransform: "none",
+          "&:hover": {
+            backgroundColor: selectedProfile ? "#04C275" : "gray",
+          },
           "&:disabled": {
             backgroundColor: "gray",
-            color: "#ccc",
           },
         }}
       >

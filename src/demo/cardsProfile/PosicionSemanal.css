@@ -1,0 +1,64 @@
+.PosicionSemanal {
+  width: 100%;
+}
+
+.PosicionSemanal-header {
+  display: flex;
+  align-items: center;
+}
+
+.PosicionSemanal-ruta {
+  display: flex;
+  font-size: 55% !important;
+}
+
+.PosicionSemanal-content {
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 7px;
+  width: 100%;
+  background-color: #1e2329;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PosicionSemanal-content-lugar {
+  width: 100%;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  background-color: #1e2329;
+}
+
+.PosicionSemanal-content-lugar *{
+  background-color: #1e2329;
+}
+
+.PosicionSemanal-medalla {
+  width: 50px;
+}
+
+.PosicionSemanal-estudiante {
+  width: 35px;
+}
+
+.PosicionSemanal-content-nombre {
+  width: 165px;
+  display: flex;
+}
+
+.ConsultarPosicion {
+  color: #07E98A;
+  border-radius: 8px;
+  width: 100%;
+  height: 48px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #07E98A;
+}
+
+.ConsultarPosicion *{
+  background-color: #07E98A;
+}
+

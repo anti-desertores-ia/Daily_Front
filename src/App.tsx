@@ -1,17 +1,23 @@
 import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
-import Home from "./Home";
+// import Home from "./Home";
 import Header from "./Header";
 import FirstScreen from "./demo-welcome/FirstScreen";
 import WelcomeWrapper from "./demo-welcome/WelcomeWrapper";
 import IndicationsScreen from "./demo-welcome/IndicationsScreen";
 import ProfileSelection from "./demo-welcome/ProfileSelection";
+import Profile from "./demo/Profile";
+import DemoWraper from "./demo/DemoWraper";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 function App() {
   return (
-    <HashRouter>
-      <Content />
-    </HashRouter>
+    <Provider store={store}>
+      <HashRouter>
+        <Content />
+      </HashRouter>
+    </Provider>
   );
 }
 
@@ -41,8 +47,11 @@ function Content() {
               <ProfileSelection />
             </WelcomeWrapper>
           } />
-          <Route path="/about" element={<h1>About</h1>} />
-          <Route path="/contact" element={<h1>Contact</h1>} />
+          <Route path="/demo/profile/:name" element={
+            <DemoWraper>
+              <Profile />
+            </DemoWraper>
+          }/>
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
       </div>
